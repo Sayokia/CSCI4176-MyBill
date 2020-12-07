@@ -38,10 +38,11 @@ Tested on Pixel 2
 
 When a user first use MyBill, he/she will be directly lead to the main dashboard. The user cam explore the UI of the app including see drawer menu, switch between detail and chart(Not developed yet) by viewpager. However, the user can not use any function without login first. When they click on Sync, Logout, Settings in the drawer menus or float action button, a warning will pop up asking him/her to login by click drawer menu header.
 
-<p><img width="32%" src = "./imageAssets/Main_notLogin.png"  />
-    <img width="32%" src = "./imageAssets/Main_drawer.png"  />
-    <img width="32%" src = "./imageAssets/Main_warning.png"  />
+<p><img width="32%" src = "imageAssets/Main_notLogin.png"  />
+    <img width="32%" src = "imageAssets/Main_drawer.png"  />
+    <img width="32%" src = "imageAssets/Main_warning.png"  />
 </p>
+
 
 
 
@@ -49,15 +50,16 @@ When a user first use MyBill, he/she will be directly lead to the main dashboard
 
 Then, User move to login page. As a new user, he/she must be register first. If anything the user entered is not valid, a error message will pop up. After register successfully, a success message will pop up and ask user go back to login page to login. The username and password have already been stored in the input filed, so he/she does not need to enter again. After Login the user will be lead to main dashboard again.
 
-<p><img width="32%" src = "./imageAssets/login.png"  />
-    <img width="32%" src = "./imageAssets/Rigster_error_1.png"  />
-    <img width="32%" src = "./imageAssets/Rigster_error_2.png"  />
+<p><img width="32%" src = "imageAssets/login.png"  />
+    <img width="32%" src = "imageAssets/Rigster_error_1.png"  />
+    <img width="32%" src = "imageAssets/Rigster_error_2.png"  />
 </p>
 
-<p><img width="32%" src = "./imageAssets/Rigister_Success.png"  />
-    <img width="32%" src = "./imageAssets/login_success.png"  />
-    <img width="32%" src = "./imageAssets/After_Login.png"  />
+<p><img width="32%" src = "imageAssets/Rigister_Success.png"  />
+    <img width="32%" src = "imageAssets/login_success.png"  />
+    <img width="32%" src = "imageAssets/After_Login.png"  />
 </p>
+
 
 
 
@@ -67,10 +69,11 @@ Then, User move to login page. As a new user, he/she must be register first. If 
 
 After Login, User can use all functions. The first part is edit his/her user setting. A newer will be assigned a default avatar. He/she can change the avatar by clicking the drawer header or settings. In the setting page, user can click avatar to change his/her avatar by taking a photo or selecting from gallery.  User can also change their email, but the username can not be changed.
 
-<p><img width="32%" src = "./imageAssets/avatar_before.png"  />
-    <img width="32%" src = "./imageAssets/setting.png"  />
-    <img width="32%" src = "./imageAssets/photo_option.png"  />
+<p><img width="32%" src = "imageAssets/avatar_before.png"  />
+    <img width="32%" src = "imageAssets/setting.png"  />
+    <img width="32%" src = "imageAssets/photo_option.png"  />
 </p>
+
 
 
 
@@ -80,11 +83,11 @@ After Login, User can use all functions. The first part is edit his/her user set
 </p>
 
 
-
-<p><img width="32%" src = "./imageAssets/select_from_gallery.png"  />
-    <img width="32%" src = "./imageAssets/select_result.png"  />
-    <img width="32%" src = "./imageAssets/updated_avata.png"  />
+<p><img width="32%" src = "imageAssets/select_from_gallery.png"  />
+    <img width="32%" src = "imageAssets/select_result.png"  />
+    <img width="32%" src = "imageAssets/updated_avata.png"  />
 </p>
+
 
 
 
@@ -96,10 +99,11 @@ After Login, User can use all functions. The first part is edit his/her user set
 
 Then, it comes to the core function, add bills. As this part is a little bit more complex, the preview will only include the view and the operation will be  explained in text.
 
-<p><img width="32%" src = "./imageAssets/add_expense.png"  />
-    <img width="32%" src = "./imageAssets/add_bill.png"  />
-    <img width="32%" src = "./imageAssets/date_picker.png"  />
+<p><img width="32%" src = "imageAssets/add_expense.png"  />
+    <img width="32%" src = "imageAssets/add_bill.png"  />
+    <img width="32%" src = "imageAssets/date_picker.png"  />
 </p>
+
 
 
 
@@ -113,10 +117,11 @@ As shown in picture 1, before user selects a group, it will be displayed as the 
 
 After bills are added to user account, every time the user login his/her dashboard will show all the results. As for now, online remote database powered by Bmob is implemented,  the process of retrieving  data may take few seconds. And sometime data may not be updated, the user need to click sync in drawer menu to restart the activity to refresh data. This also happens when you delete a bill and it diapered from your dashboard but the top data is not updated. Sync can be used for this case.
 
-<p><img width="32%" src = "./imageAssets/old_user.png"  />
-    <img width="32%" src = "./imageAssets/ondelete.png"  />
-    <img width="32%" src = "./imageAssets/onsync.png"  />
+<p><img width="32%" src = "imageAssets/old_user.png"  />
+    <img width="32%" src = "imageAssets/delete.png"  />
+    <img width="32%" src = "imageAssets/sync.png"  />
 </p>
+
 
 
 
