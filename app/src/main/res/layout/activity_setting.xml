@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_bar_main"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="1dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlt_update_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerVertical="true"
+                android:text="@string/avatar"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <ImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/ic_launcher_round"
+                 />
+        </RelativeLayout>
+
+        <View
+
+
+            style="@style/horizontal_decoration_style"
+            android:background="#8c8c8c"
+            android:padding="10sp"/>
+
+
+        <RelativeLayout
+            android:id="@+id/rlt_update_username"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_80"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/username"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/username_tv_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:hint="@string/username_hint"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </RelativeLayout>
+
+        <View
+
+            style="@style/horizontal_decoration_style"
+            android:background="#8c8c8c"
+            android:padding="10sp"/>
+
+        <RelativeLayout
+            android:id="@+id/rlt_update_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_80"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerVertical="true"
+                android:text="@string/email"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <EditText
+                android:id = "@+id/emial_ed_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:hint="@string/email_hint"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_above="@+id/bottom"
+        style="@style/horizontal_decoration_style"
+        android:background="#8c8c8c"
+        android:padding="10sp"/>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Update"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

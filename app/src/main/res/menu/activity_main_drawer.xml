@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_bill">
+            <item
+                android:id="@+id/nav_bill"
+                android:icon="@drawable/ic_baseline_assignment_24"
+                android:title="Bill" />
+            <item
+                android:id="@+id/nav_chart"
+                android:icon="@drawable/ic_baseline_pie_chart_24"
+                android:title="Chart" />
+            <item
+                android:id="@+id/nav_sync"
+                android:icon="@drawable/ic_baseline_sync_24"
+                android:title="Sync" />
+    </group>
+
+    <group android:id="@+id/group_setting">
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_theme"
+                android:icon="@drawable/ic_baseline_palette_24"
+                android:title="Theme" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_baseline_help_outline_24"
+                android:title="About" />
+    </group>
+
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Log Out" />
+
+
+
+</menu>
