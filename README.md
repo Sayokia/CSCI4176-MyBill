@@ -136,9 +136,15 @@ The project is not finished due to the heavy work load and intensive schedule of
 
 ##### References：
 [1] Some code reused from Android template by Android Studio
+
 [2] Some code referred to lab content
+
 [3] Remote Server from [Bmob](https://www.bmob.cn/)
+
 [4] Open source [swipeDelMenuLayout](SwipeDelMenuLayout)
+
 [5] [MPAndoirdChart](https://github.com/PhilJay/MPAndroidChart)
+
 [6] The open source image loading framework [Glide](https://github.com/bumptech/glide) to deal to user avatar
+
 [7] [PictureSlector](https://github.com/wildma/PictureSelector)
